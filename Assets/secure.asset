@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: secure
+  m_EditorClassIdentifier: 
+  _clientAccessToken: TR5U7IOZAQRVIWCU7O2EEODPEG7H53FO
+  _appInfo:
+    name: vr_gpt
+    id: 554572976657360
+    lang: en
+    isPrivate: 0
+    createdAt: 2023-03-23T16:43:04-0700
+    trainingStatus: 1
+    lastTrainDuration: 75
+    lastTrainedAt: 2023-03-26T06:24:53-0700
+    nextTrainAt: 2023-03-26T06:23:38-0700
+    intents:
+    - id: 632779672019903
+      name: call_chat
+      entities:
+      - name: command:command
+        id: 3318362995121260
+    entities:
+    - name: command
+      id: 889039522171673
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: command
+        id: 3318362995121260
+      keywords:
+      - keyword: give me directions to planet fitnesss
+        synonyms:
+        - give me directions to planet fitnesss
+      - keyword: give me recipes for vegan food
+        synonyms:
+        - give me recipes for vegan food
+      - keyword: tell me something about maryam
+        synonyms:
+        - tell me something about maryam
+      - keyword: this is my command
+        synonyms:
+        - this is my command
+    traits: []
+    voices:
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: 23bd9ea3-0732-4772-9e43-69e0b892b46c
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-6ef07627-c239-4850-ba5c-e0c9b75e88b7.json
+  excludedAssemblies: []
+  relaxedResolution: 0
